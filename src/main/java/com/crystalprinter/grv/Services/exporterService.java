@@ -6,8 +6,8 @@ import com.crystaldecisions.sdk.occa.report.application.ReportClientDocument;
 import com.crystaldecisions.sdk.occa.report.exportoptions.ReportExportFormat;
 import java.io.ByteArrayInputStream;
 
-public class exporter {
-    String reportPath;
+public class exporterService {
+    /* String reportPath;
     Object reportSource;
     ReportClientDocument reportClientDocument;
     ByteArrayInputStream byteArrayInputStream;
@@ -21,7 +21,7 @@ public class exporter {
         * Open a rpt file and export to PDF.  Stream PDF back to web browser.
         */
 
-        reportClientDocument = new ReportClientDocument();
+       /*  reportClientDocument = new ReportClientDocument();
 
         reportClientDocument.setReportAppServer(ReportClientDocument.inprocConnectionString);
 
@@ -46,6 +46,6 @@ public class exporter {
         response.getOutputStream().flush();
         response.getOutputStream().close();
 
-        reportClientDocument.close();
+        reportClientDocument.close(); */ 
     }
 }
