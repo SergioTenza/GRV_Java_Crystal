@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/report")
 public class reportController {
-    @Autowired
-    exporterService exporterService;
+    //@Autowired
+    //exporterService exporterService;
 
     @GetMapping()
     public String getReportAsString(){
-        return "";
+        return "De momento nada Amijo";
     }
 
     @PostMapping()
