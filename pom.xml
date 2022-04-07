@@ -12,7 +12,7 @@
 	<groupId>com.crystalprinter</groupId>
 	<artifactId>GRV_Java_Crystal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>GRV_Java_Crystal</name>
 	<description>Printing server for Crystal Report Garvalin</description>
 	<properties>
@@ -58,6 +58,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>docker-grv</finalName>
 	</build>
 
 </project>
